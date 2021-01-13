@@ -1,0 +1,43 @@
+body {
+  border: 1px solid gray;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+}
+
+h4 {
+  color: #0288d1;
+  line-height: 28px;
+  font-size: 24px;
+  margin: 0;
+}
+
+h6 {
+  color: #70bbf4;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  color: #0288d1;
+  margin: 0;
+}
+
+h2 {
+  text-align: center;
+  left: 10%;
+  color: #70bbf4;
+}
+
+form {
+  margin: 0 auto;
+  width: 500px;
+}
+
+.card-title {
+  color: #0288d1;
+}
+
+.card-body {
+  color: #939a9e;
+  font-size: 12px;
+}
