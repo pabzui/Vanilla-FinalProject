@@ -11,18 +11,21 @@ h4 {
   margin: 0;
 }
 
-h6 {
-  color: #70bbf4;
+ul {
+  list-style-type: none;
   margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+  padding: 10px;
 }
 
 h1 {
   color: #0288d1;
   margin: 0;
-}
-
-h3 {
-  color: #70bbf4;
 }
 
 form {
