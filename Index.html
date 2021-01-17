@@ -19,25 +19,35 @@
 
 <div class="weather-app">
 
-    <h1>
-        <strong>San Francisco</strong>
-    </h1>
+    <span>
+        <h1>
+            <strong>San Francisco</strong>
+        </h1>
+
+        <form>
+            <input type="text" placeholder="Change City" autocomplete="off" />
+            <input type="submit" button type="button" class="btn btn-primary"></button>
+        </form>
+    </span>
     
     <h4 id="date">May 23 2:55 am</h4>
     
+    <div class="row">
+        <div class="col-3">
+            <h2>
+                <img src="https://ssl.gstatic.com/onebox/weather/48/partly_cloudy.png" 
+                    alt="partly_cloudy">
+                31 °C 
+            </h2> 
+        </div>
 
-    <div class="col-6">
-        <h2>
-            <img src="https://ssl.gstatic.com/onebox/weather/48/partly_cloudy.png" 
-                alt="partly_cloudy">
-            31 °C 
-        </h2> 
-                    <span class="temperature" id="temperature"></span>
-                    <a href="#" id="celsius-link">°C</a>
-                    <a href="#" id="fahrenheit-link">°F</a>
-    </div> 
+        <div class="col-5">
+            <span class="temperature" id="temperature"></span>
+            <a href="#" id="celsius-link">°C</a>
+            <a href="#" id="fahrenheit-link">°F</a>
+        </div>
+    
         
-    <div class="col-6">
         <ul>
             <li>
                 <strong>Precipitation:</strong> 3% 
@@ -52,80 +62,75 @@
             </li>
         </ul>
     </div>
-
-        <form>
-            <input type="text" placeholder="Change City" autocomplete="off" />
-            <input type="submit"
-            button type="button" class="btn btn-primary"></button>
-        </form>
+    
 
         <div class="row">
             <div class="col-2">
-                <div class="card" style="width: 20rem;">
+                <div class="card" style="width: 10rem;">
                     
                     <div class="card-body">
                         <h5 class="card-title">May 24</h5>
                         <p class="card-text">
                         <div><strong>°c/°f</strong></div>
-                        <div>Condition: Rain Showers</div>
-                        <div>Precipitation: 100%</div>
-                        <div>Wind: 10km/h</div>
+                        <div>Condition:</div>
+                        <div>Precipitation:</div>
+                        <div>Wind:</div>
                         </p>
                     </div>
                 </div>
             </div>
             <div class="col-2">
-                <div class="card" style="width: 20rem;">
+                <div class="card" style="width: 10rem;">
                     
                     <div class="card-body">
                         <h5 class="card-title">May 25</h5>
                         <p class="card-text">
                         <div><strong>°c/°f</strong></div>
-                        <div>Condition: Partly Sunny</div>
-                        <div>Precipitation: 40%</div>
-                        <div>Wind:5 km/h</div>
+                        <div>Condition: </div>
+                        <div>Precipitation:</div>
+                        <div>Wind:</div>
                         </p>
                     </div>
                 </div>
             </div>
             <div class="col-2">
-                <div class="card" style="width: 20rem;">
+                <div class="card" style="width: 10rem;">
                     
                     <div class="card-body">
                         <h5 class="card-title">May 26</h5>
                         <p class="card-text">
                         <div><strong>°c/°f</strong></div>
-                        <div>Condition: Sunny</div>
-                        <div>Precipitation: 30%</div>
-                        <div>Wind: 10km/h</div>
+                        <div>Condition:</div>
+                        <div>Precipitation:</div>
+                        <div>Wind:</div>
                         </p>
                     </div>
                 </div>
             </div>
             <div class="col-2">
-                <div class="card" style="width: 20rem;">
+                <div class="card" style="width: 10rem;">
                     
                     <div class="card-body">
                         <h5 class="card-title">May 27</h5>
                         <p class="card-text">
                         <div><strong>°c/°f</strong></div>
-                        <div>Condition: Thunder Showers</div>
-                        <div>Precipitation: 100%</div>
-                        <div>Wind: 15km/h</div>
+                        <div>Condition:</div>
+                        <div>Precipitation:</div>
+                        <div>Wind:</div>
                         </p>
                     </div>
                 </div>
             </div>
             <div class="col-2">
-                <div class="card" style="width: 20rem;">
+                <div class="card" style="width: 10rem;">
                     
                     <div class="card-body">
                         <h5 class="card-title">May 28</h5>
                         <p class="card-text">
                         <div><strong>°c/°f</strong></div>
-                        <div>Condition: Rain Showers</div>
-                        <div>Precipitation: 100%</div>
-                        <div>Wind: 7km/h</div>
+                        <div>Condition:</div>
+                        <div>Precipitation:</div>
+                        <div>Wind:</div>
                         </p>
                     </div>
                 </div>
@@ -133,11 +138,12 @@
         </div>
         </div>
 
-        <small>
+        <small id="repository">
             <a href="https://github.com/pabzui/Vanilla-FinalProject"
         target="_blank">Open source code</a> by Chantal Soucy
         </small>
     </div>
+</div>
 
     </body>
     </html>
