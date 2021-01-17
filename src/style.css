@@ -13,6 +13,7 @@ h4 {
 }
 
 h2 {
+  color: #788891;
 }
 
 ul {
@@ -20,6 +21,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
+  color: #a5a9aa;
 }
 
 li {
