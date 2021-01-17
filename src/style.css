@@ -4,13 +4,6 @@
   padding: 20px;
 }
 
-h4 {
-  color: #0288d1;
-  line-height: 28px;
-  font-size: 24px;
-  margin: 0;
-}
-
 ul {
   list-style-type: none;
   margin: 0;
@@ -24,7 +17,7 @@ li {
 }
 
 h1 {
-  color: #0288d1;
+  color: #0f6a9b;
   margin: 0;
 }
 
@@ -34,7 +27,7 @@ form {
 }
 
 .card-title {
-  color: #0288d1;
+  color: #0f6a9b;
 }
 
 .card-body {
