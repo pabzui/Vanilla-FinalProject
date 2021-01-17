@@ -17,6 +17,12 @@ h4 {
 
 h2 {
   color: #788891;
+  margin-bottom: 0;
+}
+
+.temperature {
+  font-size: 12px;
+  font-weight: lighter;
 }
 
 ul {
@@ -33,7 +39,7 @@ li {
 }
 
 form {
-  margin: 0 auto;
+  margin: left;
   width: 500px;
 }
 
