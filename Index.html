@@ -26,12 +26,19 @@
                 style="float:right;width:200px;height:200px;"
                 id = "icon" />
 
-        <h1 id="city"></h1>
+    <form>
+        <div class="row">
+            <div class="col-9">
+                <input type="search" placeholder="Change City" class="form-control" autocomplete="off" />   
+            </div>
+            <div class="col-3">
+                <input type="submit" value="Search" button type="button" class="btn btn-primary"></button>
+            </div>
+        </div>
+    </form>
 
-        <form>
-            <input type="text" placeholder="Change City" autocomplete="off" />
-            <input type="submit" button type="button" class="btn btn-primary"></button>
-        </form>
+    <h1 id="city"></h1>
+
     </span>
     <p><em>Updated:</em></p>
     <h4 id="date"></h4>
@@ -46,9 +53,8 @@
             <span class="temperature" id="units"></span>
             °C |
             <a href="#" id="fahrenheit-link">°F</a>
-            
-        </div>
-    
+          
+    </div>
         <div>
         <ul>
             <li>
