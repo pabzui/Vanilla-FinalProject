@@ -19,16 +19,16 @@
   background-blend-mode: normal, multiply;
 }
 
-h1 {
-  color: #0f6a9b;
-  margin: 0;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-}
-
 form {
   margin: left;
   margin-bottom: 15px;
   width: 500px;
+}
+
+h1 {
+  color: #0f6a9b;
+  margin: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 h4 {
@@ -37,11 +37,15 @@ h4 {
 
 h2 {
   color: #788891;
+  margin-left: 80px;
+}
+
+p:first-letter {
+  text-transform: uppercase;
 }
 
 p {
   color: #469dbf;
-  text-transform: capitalize;
   font-size: 14px;
 }
 
