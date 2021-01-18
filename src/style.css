@@ -19,8 +19,6 @@
   background-blend-mode: normal, multiply;
 }
 
-background-image: linear-gradient(to top, #fddb92 0%, #d1fdff 100%);
-
 h1 {
   color: #0f6a9b;
   margin: 0;
