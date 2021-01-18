@@ -57,3 +57,8 @@ li {
   color: #939a9e;
   font-size: 12px;
 }
+
+.notice {
+  color: #bfbbbb;
+  text-align: right;
+}
