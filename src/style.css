@@ -28,8 +28,9 @@ h2 {
   color: #788891;
 }
 
-h5 {
-  color: #788891;
+p {
+  color: #469dbf;
+  text-transform: capitalize;
 }
 
 ul {
