@@ -6,13 +6,12 @@
   padding: 30px;
   margin-top: 35px;
   margin-bottom: 20px;
-  background-color: whitesmoke;
+  background-color: #f9f9f9;
 }
 
 h1 {
   color: #0f6a9b;
   margin: 0;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 form {
