@@ -39,9 +39,29 @@ function displayTemperature(response){
          "alt", response.data.weather[0].description);
 }
 
+function searchLocation(position) {
+  let apiKey = "2fc18d3d2a617d4f5dd286dc3cfcf411";
+  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${position.coords.latitude}&lon=${position.coords.longitude}&appid=${apiKey}&units=metric`;
+    axios.get(apiUrl).then(displayWeatherCondition);
+    apiUrl = `https://api.openweathermap.org/data/2.5/forecast?lat=${position.coords.latitude}&lon=${position.coords.longitude}&appid=${apiKey}&units=metric`;
+    axios.get(apiUrl).then(dispalyForecast);
+}
 
-let apiKey = "2fc18d3d2a617d4f5dd286dc3cfcf411";
-let city = "Calgary"
-let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
+function search(city){
+    let apiKey = "2fc18d3d2a617d4f5dd286dc3cfcf411";
+    let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
-axios.get(apiUrl).then(displayTemperature);
+    axios.get(apiUrl).then(displayTemperature);
+}
+
+
+function handleSubmit(event){
+    event.preventDefault();
+    let cityInputElement = document.querySelector("#city-input");
+    search(cityInputElement.value);
+}
+
+search("Calgary");
+
+let form = document.querySelector("#search-form");
+form.addEventListener("sumbit", handleSubmit);
